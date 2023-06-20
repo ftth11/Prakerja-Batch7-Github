@@ -1,0 +1,62 @@
+ALGORITMA MENGHITUNG LUAS DAN KELILING LINGKARAN
+================================================
+dik :   1. Phi => 3.14 atau 22/7
+        2. r   => jari-jari
+Rumus : 1. Luas     => Phi.r.r
+        2. Keliling => 2.Phi.r
+================================================
+LUAS LINGKARAN
+
+STORE "Phi" with value "3.14"
+STORE "radius" to any value
+STORE "area" without value
+CALCULATE "Phi" times "radius" times "radius"
+SET "area" with calculation result
+DISPLAY "area"
+
+SIMPAN "Phi" dengan nilai "3.14"
+SIMPAN "jari-jari" dengan nilai berapapun
+SIMPAN "luas" tanpa nilai
+HITUNG "Phi" dikalikan "jari-jari" dikalikan "jari-jari"
+SIMPAN hasil perhitungan ke "luas"
+Tampilkan "luas"
+=================================================
+KELILING LINGKARAN
+
+STORE "Phi" with value "3.14"
+STORE "radius" to any value
+STORE "circumference" without value
+CALCULATE "2" times "Phi" times "radius"
+SET "circumference" with calculation result
+DISPLAY "circumference"
+
+SIMPAN "Phi" dengan nilai "3.14"
+SIMPAN "jari-jari" dengan nilai berapapun
+SIMPAN "keliling" tanpa nilai
+HITUNG "2" dikalikan "Phi" dikalikan "jari-jari"
+SIMPAN hasil perhitungan ke "keliling"
+Tampilkan "keliling"
+=================================================
+LUAS DAN KELILING LINGKARAN
+
+STORE "Phi" with value "3.14"
+STORE "radius" to any value
+STORE "area" without value
+STORE "circumference" without value
+CALCULATE "Phi" times "radius" times "radius"
+SET "area" with calculation result
+DISPLAY "area"
+CALCULATE "2" times "Phi" times "radius"
+SET "circumference" with calculation result
+DISPLAY "circumference"
+
+SIMPAN "Phi" dengan nilai "3.14"
+SIMPAN "jari-jari" dengan nilai berapapun
+SIMPAN "luas" tanpa nilai
+SIMPAN "keliling" tanpa nilai
+HITUNG "Phi" dikalikan "jari-jari" dikalikan "jari-jari"
+SIMPAN hasil perhitungan ke "luas"
+Tampilkan "luas"
+HITUNG "2" dikalikan "Phi" dikalikan "jari-jari"
+SIMPAN hasil perhitungan ke "keliling"
+Tampilkan "keliling"

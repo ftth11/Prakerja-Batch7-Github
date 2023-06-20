@@ -1,0 +1,42 @@
+1 ODD!
+2 EVEN!
+3 ODD!
+...
+10 EVEN!
+
+STORE "hitung" with 1                 
+WHILE "hitung" <= 10                   
+    DISPLAY "hitung"                 
+    ADD "hitung" with 1 
+
+1
+2
+3
+4
+...
+10
+
+MODULO = SISA PEMBAGIAN
+5 MOD 2 = 1
+7 MOD 4 = 3
+7 MOD 2 = 1
+
+FAKTA UNIK :
+ANGKA GANJIL MOD 2 = 1
+ANGKA GENAP MOD 2 = 0
+
+STORE "hitung" with 1                 
+WHILE "hitung" <= 10                   
+    DISPLAY "hitung"    
+    COMPUTE "hitung" MOD 2
+    STORE "sisa" to the result of calculation
+    IF "sisa" equals to 0
+        DISPLAY "EVEN!"
+    ELSE 
+        DISPLAY "ODD!"              
+    ADD "hitung" with 1 
+
+1 ODD!
+2 EVEN!
+...
+10 EVEN
