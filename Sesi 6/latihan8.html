@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regex Password</title>
+</head>
+<body>
+    <script>
+        const pola = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+        const password = prompt("Masukkan Password (8 karakter, min 1 angka, min 1 huruf)");
+        if (pola.test(password)) {
+            document.write("Pola Password Sesuai");
+        } else {
+            document.write("Pola Password Tidak Sesuai");
+        }
+    </script>
+</body>
+</html>

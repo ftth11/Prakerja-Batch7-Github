@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Remove Element</title>
+</head>
+<body>
+    <h2 id="judul2">Delete Saya</h2>
+    <button onclick="hapusJudul()">Hapus Teks</button>
+    <!-- <button onclick="tambahkanJudul()">Tambahkan Teks</button> -->
+
+    <script>
+        // kita simpan h2 judul2 ke variable judul2
+        const judul2 = document.getElementById("judul2");
+
+        // kita hapus elementnya
+        function hapusJudul() {
+            judul2.remove();
+        }
+
+        // kita menambahkan elementnya
+        function tambahkanJudul() {
+            document.body.append(judul2);
+        }
+    </script>
+</body>
+</html>

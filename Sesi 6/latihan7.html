@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regex Test</title>
+</head>
+<body>
+    <script>
+        const foo = "Belajar JavaScript";
+        const pola = /JavaScript/;
+
+        // kita cek apakah di dalam foo ada pola
+        console.log(pola.test(foo)); // true
+
+        // case sensitive, s nya kecil
+        console.log(/Javascript/.test(foo));  // false
+
+        console.log(/Belajar/.test(foo)); // true
+        console.log(/belajar/.test(foo)); // false
+    </script>
+</body>
+</html>

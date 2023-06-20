@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Query Selector</title>
+</head>
+<body>
+    <h1 id="judul"></h1>
+    <h2 class="subjudul"></h2>
+    <h3 class="subjudul"></h3>
+    <script>
+        // document tolong carikan tag html dengan id, isinya akan kita ganti dengan
+        document.getElementById("judul").innerHTML = "Hello";
+
+        // document tolong carikan tag html dengan class "subjudul",
+        // isinya akan kita ganti dengan "Hacktiv8"
+        document.querySelector("h2.subjudul").innerHTML = "Prakerja";
+        document.querySelector("h3.subjudul").innerHTML = "Hacktiv8";
+    </script>
+</body>
+</html>
