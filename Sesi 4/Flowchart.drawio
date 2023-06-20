@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-06-12T14:11:48.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="Zl3eyi4Cn-O76QaE3Bsr" version="21.3.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="971" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-0" target="RuiHh1Hrw4GClWyuBQj7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-0" value="STATR" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-1" target="RuiHh1Hrw4GClWyuBQj7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-1" value="Input &quot;NAMA&quot; dan &quot;NILAI MAHASISWA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="160" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-3" target="RuiHh1Hrw4GClWyuBQj7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-3" value="simpan &quot;NAMA&quot; dan &quot;NILAI MAHASISWA&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-5" target="RuiHh1Hrw4GClWyuBQj7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-5" target="RuiHh1Hrw4GClWyuBQj7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-5" value="jika &quot;NILAI&quot;&lt;br&gt;&amp;gt;=60" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-7" value="simpan &quot;KETERANGAN&quot; = LULUS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-10" target="RuiHh1Hrw4GClWyuBQj7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-10" value="output &quot;NAMA&quot;&lt;br&gt;dan &quot;KETERANGAN" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="560" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-12" value="END" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="660" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-14" target="RuiHh1Hrw4GClWyuBQj7-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-14" value="simpan &quot;KETERANGAN&quot; = TIDAK LULUS" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuiHh1Hrw4GClWyuBQj7-24" target="RuiHh1Hrw4GClWyuBQj7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuiHh1Hrw4GClWyuBQj7-24" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="495" y="580" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

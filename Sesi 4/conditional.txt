@@ -1,0 +1,19 @@
+IF "hungry"
+    DO "eat"
+DISPLAY "I am happy"
+
+hungry => eat => happy
+not hungry => happy
+
+
+============================
+STORE "score" to any number
+
+IF "score" < 70
+    DO "learn more"
+ELSE
+    DO "reward myself"
+DO "continue with life..."
+
+score = 80 -> reward -> continue life
+score = 55 -> learn more -> continue with life
