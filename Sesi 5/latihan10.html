@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conditional</title>
+</head>
+<body>
+    <label>Kondisi : </label>
+    <input type="text" id="kondisi"/>
+    <button onclick="cek_kondisi()">Cek Kondisi</button>
+    <div id="hasil"></div>
+
+    <script>
+        // =, memasukkan nilai ke variabel
+        // ==, membandingkan kiri kanannya apakah sama
+        // ===, membandingkan kiri kanannya apakah sama, tipe data harus sama
+
+        function cek_kondisi() {
+            let kondisi = document.getElementById("kondisi").value;
+            let hasil;
+            if (kondisi === "lapar") {
+                hasil = "Waktu Makan";
+            } else if (kondisi === "kenyang") {
+                hasil = "Bukan Waktunya Makan";
+            } else {
+                hasil = "Boleh Ngemil";
+            }
+            document.getElementById("hasil").innerHTML = hasil;
+        }
+    </script>
+</body>
+</html>

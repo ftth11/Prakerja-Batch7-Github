@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Looping</title>
+</head>
+
+<body>
+    <button onclick="print()">Print 1000x</button>
+    <ol id="hasil"></ol>
+    <script>
+        function print() {
+            const dt = document.getElementById("hasil");
+            let angka = 1;
+            while (angka <= 1000) {
+                dt.innerHTML = dt.innerHTML + "<li>Saya tidak akan terlambat lagi</li>";
+                angka++;
+            }
+        }
+    </script>
+</body>
+
+</html>

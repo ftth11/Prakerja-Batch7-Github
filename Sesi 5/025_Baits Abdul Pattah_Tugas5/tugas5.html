@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Sesi 3</title>
+</head>
+<body>
+    <label>Pesan : </label><input type="text" id="pesan"><br>
+    <label>Berapa kali : </label><input type="number" id="jumlah"><br>
+    <button onclick="cetak()">Cetak!</button>
+    <ol id="hasil"></ol>
+
+    <script>
+        // const nama_variabel= document.getElementById("nama_variabel")
+       
+        function cetak() {
+            let pesan = document.getElementById("pesan").value;
+            document.getElementById("hasil").innerHTML = pesan;
+            let berapa_kali = document.getElementById("jumlah").value;
+            document.getElementById("pesan").innerHTML = jumlah;
+
+            const dt = document.getElementById("jumlah");
+            for(let jumlah=1; jumlah<=berapa_kali; jumlah++) {
+                document.write (pesan); 
+            }
+          }
+    </script>
+</body>
+</html>
